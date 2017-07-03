@@ -7,7 +7,8 @@ body {
   -webkit-font-smoothing: antialised;
   width: 100%;
   margin: 0;
-  padding: 0; }
+  color: red;
+ }
 
 a:hover {
   text-decoration: none; }
