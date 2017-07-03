@@ -8,7 +8,9 @@ body {
   width: 100%;
   margin: 0;
   color: red;
+  padding: 0;
  }
+
 
 a:hover {
   text-decoration: none; }
