@@ -1,0 +1,167 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1185px) {
+.container .contact p{
+		font-size: 90%;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1085px) {
+	.head-flui .logo p{
+		font-size: 10px;
+		text-align: left;
+
+	}
+	.head-flui .container .navigation a li{
+		font-size: 10px;
+		padding: 33px 4px 0 0;
+
+	}
+	.head-flui .logo .multigesign{
+		text-align: left;
+		font-size: 24px;
+	}
+	 .container .contact p{
+		font-size: 70%;
+	}
+	.head-flui .top_button a{
+		padding-top: 5px;
+		width: 120px;
+
+	}
+ 	.top_wrapper .top_descr .top_cent .top_name h2{
+		font-size: 25px;
+	}
+	.top_wrapper .top_descr .top_cent .top_name h3{
+		font-size: 25px;
+	}
+	.top_wrapper .top_descr .top_cent .top_name p{
+		font-size: 40px;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+.Portfolio .partners .layer1 .rect{
+
+	left:43%;
+}
+
+
+.head-flui .container .navigation a li{
+		font-size: 10px;
+		padding: 33px 5px 0 0;
+
+	}
+	.head-flui .logo .multigesign{
+		text-align: left;
+		font-size: 24px;
+	}
+
+	.container .contact  p{
+		font-size: 50%;
+	}
+	.container .contact  .email{
+		
+
+	}
+	.head-flui .top_button {
+		visible: hidden;
+		display: none;
+		opacity: 0;
+
+	}
+	.top_wrapper .top_descr .top_cent .top_name h2{
+		font-size: 20px;
+	}
+	.top_wrapper .top_descr .top_cent .top_name h3{
+		font-size: 20px;
+	}
+	.top_wrapper .top_descr .top_cent .top_name p{
+		font-size: 30px;
+	}
+	footer .logo p{
+		font-size:8px;
+		line-height: 1;
+
+	}
+	.copi{
+		font-size:70%;
+		margin-top:10px;
+	}
+	.About h2{
+		font-size: 24px;
+		line-height: 1;
+	}
+	.Portfolio h2{
+		font-size: 24px;
+		line-height: 1;
+	}
+}
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 580px) {
+	.sl{
+		visibility: hidden;
+		display: none
+	}
+	.navigation a,.call,.time,.email{
+		visible:hidden;
+		opacity: 0;
+	}
+	.container .contact .extr_menu{
+		visible: visibility;
+		opacity: 1;
+		display: block;
+		padding: 10px 0 0 0;
+	}
+	.Portfolio .partners .layer1 .rect{
+
+		left:41%;
+	}
+	.Portfolio .partners .layer2 p{
+		font-size: 14px ;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 400px) {
+	.Map .form{
+		left: 0;
+
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+
+}
